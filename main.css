@@ -124,6 +124,7 @@ section.skills h1 {
 ul {
     list-style-type: none;
     position: relative;
+    text-align: center;
 }
 
 li{
@@ -194,7 +195,7 @@ section.contact h1 {
 
 .cat{
     width: 25vw;
-    margin-left: 101vw;
+    margin-left: 108vw;
     margin-top: -29vh;
 }
 
@@ -258,3 +259,70 @@ section.contact h1 {
     animation: cursorAnim3 .5s forwards;
     border: 1px solid red;
 }
+
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    
+    .intro{
+        position: absolute;
+        margin:0 auto;
+        height:30vh;
+        width: 60vw;
+        left: 20vw;
+        top: 35vh;
+        /* display: grid;
+        justify-content: center;
+        place-items: center;
+        align-content: center;
+        grid-template-columns: repeat(1, auto); */
+        color: white;
+        font-size: 6.5vw;
+        font-family: 'Impact';
+        font-weight: bold;
+        background-color: black;
+    }
+    
+    .intro img{
+        margin: 0 auto;
+        width: 50vm;
+        height: 56vh;
+    }
+
+    .intro h1{
+
+    }
+
+    section.about {
+        margin: 0 auto;
+        background: rgb(46, 53, 54);
+        /* padding: 32em; */
+        height: 60vh;
+        width: 100vw;
+        overflow: hidden;
+        position: relative;
+    }
+
+    section.contact{
+        margin: 0 auto;
+        position: relative;
+        /* padding: 10em; */
+        height: 70vh;
+        width: 100vw;
+        overflow: hidden;
+        background-color: rgb(44, 43, 43);
+    }
+
+    .icon{
+        position: relative;
+        width: 100vw;
+        margin-top: 25vh;
+        margin-left: 20vw;
+    }
+
+    .icon img{
+        /* margin-left: 90px;
+        margin-top: 23px; */
+        width: 12vw;
+        padding: 4vw
+    }
+  }
