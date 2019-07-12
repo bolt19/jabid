@@ -277,7 +277,7 @@ section.contact h1 {
         align-content: center;
         grid-template-columns: repeat(3, auto);
         color: white;
-        font-size: 6.3vw;
+        font-size: 5.3vw;
         font-family: 'Impact';
         font-weight: bold;
         background-color: rgb(0, 0, 0);
@@ -285,8 +285,8 @@ section.contact h1 {
 
     .intro img{
         margin: 0 auto;
-        width: 50vm;
-        height: 56vh;
+        width: 40vm;
+        height: 46vh;
     }
 
     .intro h1{
@@ -297,7 +297,7 @@ section.contact h1 {
         margin: 0 auto;
         background: rgb(46, 53, 54);
         /* padding: 32em; */
-        height: 50vh;
+        height: 40vh;
         width: 100vw;
         overflow: hidden;
         position: relative;
@@ -318,7 +318,7 @@ section.contact h1 {
         left: 20vw;
         z-index: 0;
         width: 60vw;
-        height: 60vh;
+        height: 60vw;
         border: 2vw solid #20A2C3;
         overflow: hidden;
         transform: rotateZ(65deg)
@@ -330,7 +330,7 @@ section.contact h1 {
         left: 10%;
         z-index: 0;
         width: 10vw;
-        height: 10vh;
+        height: 10vw;
         border: 2vw solid rgba(255,255,255,.5);
         overflow: hidden;
     }
@@ -375,7 +375,7 @@ section.contact h1 {
     }
 
     .skdiv div{
-        height: 30vh;
+        height: 40vw;
         width: 39vw;
         border-radius: 10px;
         background: #20A2C3;
@@ -387,7 +387,7 @@ section.contact h1 {
         margin: 0 auto;
         position: relative;
         /* padding: 10em; */
-        height: 50vh;
+        height: 52vw;
         width: 100vw;
         overflow: hidden;
         background-color: rgb(44, 43, 43);
