@@ -308,7 +308,7 @@ section.contact h1 {
         margin: 0 auto;
         background: rgb(46, 53, 54);
         /* padding: 32em; */
-        height: 36vh;
+        height: 33vh;
         width: 100vw;
         overflow: hidden;
         position: relative;
@@ -348,7 +348,7 @@ section.contact h1 {
 
     section.skills{
         margin: 0 auto;
-        height: 118vh;
+        height: 115vh;
         width: 100vw;
         overflow: hidden;
         position: relative;
@@ -385,7 +385,7 @@ section.contact h1 {
         margin: 0 auto;
         position: relative;
         /* padding: 10em; */
-        height: 32vh;
+        height: 30vh;
         width: 100vw;
         overflow: hidden;
         background-color: rgb(44, 43, 43);
@@ -394,9 +394,9 @@ section.contact h1 {
     .icon{
         position: relative;
         width: 40vw;
-        margin-top: 13vh;
+        margin-top: 11vh;
         margin-left: 20vw;
-        background-color: red;
+        /* background-color: red; */
     }
 
     .icon img{
