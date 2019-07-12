@@ -264,7 +264,10 @@ section.contact h1 {
 
 @media screen and (max-width: 500px) /* Mobile */ {
 
-
+    html{
+        overflow: scroll;
+        /* overflow-x: hidden; */
+    }
 
     body{
         margin: 0;
@@ -305,7 +308,7 @@ section.contact h1 {
         margin: 0 auto;
         background: rgb(46, 53, 54);
         /* padding: 32em; */
-        height: 38vh;
+        height: 36vh;
         width: 100vw;
         overflow: hidden;
         position: relative;
@@ -345,7 +348,7 @@ section.contact h1 {
 
     section.skills{
         margin: 0 auto;
-        height: 122vh;
+        height: 118vh;
         width: 100vw;
         overflow: hidden;
         position: relative;
@@ -375,7 +378,7 @@ section.contact h1 {
         border-radius: 10px;
         background: #20A2C3;
         /* background-image: url("img/blue.jpg");  */
-        background-blend-mode: darken;
+        background-blend-mode:  
     }
 
     section.contact{
@@ -391,20 +394,22 @@ section.contact h1 {
     .icon{
         position: relative;
         width: 40vw;
-        margin-top: 19vh;
+        margin-top: 13vh;
         margin-left: 20vw;
+        background-color: red;
     }
 
     .icon img{
         /* margin-left: 90px;
         margin-top: 23px; */
         width: 7vw;
-        padding: 2vw
+        padding: 2vw;
+        
     }
 
     .cat{
         width: 25vw;
-        margin-left: 88vw;
+        margin-left: 84vw;
         margin-top: -29vh;
     }
   }
